@@ -32,25 +32,25 @@ public class ServerConnection extends Thread{
             //IMPRIMIR MENSAJE
             System.out.println(first);
         }catch(IOException io1){
-            System.out.println("Error Server Thread io1");
+            System.out.println("Error Server");
         }
         while(!salir){
             try{
                 mensaje=in.readUTF();
                 //SE VERÁ LO QUE SE VA A ENVIAR
-                System.out.println("- "+nombre+" write: "+mensaje);
+                System.out.println("- "+nombre+" ha escrito: "+mensaje);
                 //SI SE ESCRIBE "exit" EL MENSAJE NO SE ENVIA, Y CERRAMOS EL SOCKET DEL CLIENTE
-                if(mensaje.equalsIgnoreCase("exit")){
+                if(mensaje.equalsIgnoreCase("salir")){
                     salir=true;
-                    enviarMensaje("- "+nombre+" disconected");
+                    enviarMensaje("- "+nombre+" DESCONECTADO");
                     removeClient();
                     //SI NO ESCRIBE EXIT, ENVIARA EL MENSAJE NORMAL
                 }else{
-                    enviarMensaje("- "+nombre+" write: "+mensaje);
+                    enviarMensaje("- "+nombre+" ha escrito: "+mensaje);
                 }
 
             }catch(IOException io2){
-                System.out.println("Error Server Thread");
+                System.out.println("Error Server");
                 io2.printStackTrace();
             }
         }
@@ -65,15 +65,15 @@ public class ServerConnection extends Thread{
         this.id=id;
         this.list=list;
     }
-    private void enviarMensaje(String message){
+    private void enviarMensaje(String mensaje){
         try{
             Iterator it=list.getUsers().entrySet().iterator();
             while(it.hasNext()){
                 Map.Entry pair = (Map.Entry)it.next();
-                // SI EL USUARIO RECIBE EL MENSAJE NO LO RECIBIRÁ
+                // SI EL USUARIO MANDA EL MENSAJE NO LO RECIBIRÁ
                 if(Integer.parseInt(pair.getKey().toString())!=id) {
                     ou= new DataOutputStream(((Socket) pair.getValue()).getOutputStream());
-                    ou.writeUTF(message);
+                    ou.writeUTF(mensaje);
                 }
             }
         }catch(IOException io){

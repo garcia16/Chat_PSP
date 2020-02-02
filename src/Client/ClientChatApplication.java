@@ -37,11 +37,11 @@ public class ClientChatApplication {
             try{
                 mensaje=in.readLine();
                 ou.writeUTF(mensaje);
-                if(mensaje.equalsIgnoreCase("exit")){
+                if(mensaje.equalsIgnoreCase("salir")){
                     end=true;
                 }
             }catch(IOException io2){
-                System.out.println("Error in loop");
+                System.out.println("Error");
             }
         }
     }

@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XFXPLiOJDCYtHDGHtx53WmUD4Y" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,9 +25,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chat_Clase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client 3">
+    <configuration name="Client 2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Client.ClientChatApplication" />
+      <module name="Chat_PSP" />
+      <option name="PROGRAM_PARAMETERS" value="Pedro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client 3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Client.ClientChatApplication" />
+      <module name="Chat_PSP" />
+      <option name="PROGRAM_PARAMETERS" value="Juan" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Client.ClientChatApplication" />
       <module name="Chat_PSP" />
@@ -36,12 +55,15 @@
     <configuration name="Server" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Server.ServerChatApplication" />
       <module name="Chat_PSP" />
+      <option name="PROGRAM_PARAMETERS" value="Server" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client 2" />
+      <item itemvalue="Application.Client 3" />
       <item itemvalue="Application.Client" />
     </list>
   </component>
@@ -59,33 +81,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="445" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580662910426">
+    <state x="445" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580664926334">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="445" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580662910426" />
-    <state x="720" y="325" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580662321680">
+    <state x="445" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580664926334" />
+    <state x="720" y="325" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580664310493">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="720" y="325" key="#com.intellij.ide.util.TreeClassChooserDialog/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580662321680" />
+    <state x="720" y="325" key="#com.intellij.ide.util.TreeClassChooserDialog/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580664310493" />
     <state x="771" y="296" key="FileChooserDialogImpl" timestamp="1580662234190">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="771" y="296" key="FileChooserDialogImpl/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580662234190" />
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1580663010775">
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1580665393530">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580663010775" />
-    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1580663010775">
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580665393530" />
+    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1580665393530">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.center/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580663010775" />
-    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1580663010775">
+    <state width="1815" height="295" key="GridCell.Tab.0.center/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580665393530" />
+    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1580665393529">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.left/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580663010775" />
-    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1580663010775">
+    <state width="1815" height="295" key="GridCell.Tab.0.left/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580665393529" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1580665393530">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.right/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580663010775" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580665393530" />
   </component>
 </project>

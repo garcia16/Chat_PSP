@@ -30,7 +30,7 @@ public class Client extends Thread{
             socket.close();
             //MENSAJE DE ERROR
         }catch(IOException io){
-            System.out.println("Error client thread");
+            System.out.println("Error client");
             io.printStackTrace();
             end=true;
         }
