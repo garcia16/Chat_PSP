@@ -1,4 +1,5 @@
-package Server;
+package com.gmq.psp.sockets.chat.server;
+
     import java.io.IOException;
     import java.net.ServerSocket;
     import java.net.Socket;
@@ -15,7 +16,7 @@ public class ServerChatApplication {
             list = new Users();
             salir=false;
             serversocket=new ServerSocket(7001);
-            System.out.println("Server");
+            System.out.println("com/gmq/psp/sockets/chat/server");
             while(!salir){
                 Socket socket=serversocket.accept();
                 list.addUser(cont, socket);

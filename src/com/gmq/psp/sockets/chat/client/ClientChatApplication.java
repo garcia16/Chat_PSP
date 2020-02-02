@@ -1,4 +1,4 @@
-package Client;
+package com.gmq.psp.sockets.chat.client;
 
     import java.io.BufferedReader;
     import java.io.DataOutputStream;

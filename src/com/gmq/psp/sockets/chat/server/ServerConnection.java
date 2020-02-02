@@ -1,4 +1,4 @@
-package Server;
+package com.gmq.psp.sockets.chat.server;
     import java.io.DataInputStream;
     import java.io.DataOutputStream;
     import java.io.IOException;

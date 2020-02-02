@@ -1,4 +1,4 @@
-package Server;
+package com.gmq.psp.sockets.chat.server;
     import java.net.Socket;
     import java.util.HashMap;
 public class Users {
