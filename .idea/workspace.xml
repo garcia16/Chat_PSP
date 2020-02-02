@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52b1a5a4-110b-4e7a-84f1-ddedbffc4360" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XFXPLiOJDCYtHDGHtx53WmUD4Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chat_Clase" />
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Client.ClientChatApplication" />
+      <module name="Chat_PSP" />
+      <option name="PROGRAM_PARAMETERS" value="Jose" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Server.ServerChatApplication" />
+      <module name="Chat_PSP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52b1a5a4-110b-4e7a-84f1-ddedbffc4360" name="Default Changelist" comment="" />
+      <created>1580642790741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580642790741</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="445" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580662910426">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="445" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580662910426" />
+    <state x="720" y="325" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580662321680">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="720" y="325" key="#com.intellij.ide.util.TreeClassChooserDialog/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580662321680" />
+    <state x="771" y="296" key="FileChooserDialogImpl" timestamp="1580662234190">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="771" y="296" key="FileChooserDialogImpl/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580662234190" />
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1580663010775">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580663010775" />
+    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1580663010775">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.center/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580663010775" />
+    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1580663010775">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.left/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580663010775" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1580663010775">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.right/62.0.1858.1080/1982.197.1298.768@62.0.1858.1080" timestamp="1580663010775" />
+  </component>
+</project>
